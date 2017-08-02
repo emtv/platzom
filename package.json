@@ -1,0 +1,29 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de Strings",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emtv/platzom.git"
+  },
+  "keywords": [
+    "platzom"
+  ],
+  "author": "Edgardo Tupiño <edgardo@tupino.com> (https://twitter.com/emtv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emtv/platzom/issues"
+  },
+  "homepage": "https://github.com/emtv/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
